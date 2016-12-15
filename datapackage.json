@@ -5,8 +5,14 @@
       "name": "data",
       "path": "./metadata.tsv",
       "schema": {
+        "dialect": {
+          "delimiter": "\t"
+        },
         "fields": [
           {
+            "constraints": {
+              "unique": true
+            },
             "description": "ID",
             "name": "id",
             "type": "string"
@@ -80,6 +86,9 @@
             "type": "boolean"
           },
           {
+            "constraints": {
+              "minimum": 0
+            },
             "description": "age at initial pathologic diagnosis",
             "name": "age_at_initial_pathologic_diagnosis",
             "type": "integer"
@@ -115,7 +124,7 @@
             "type": "integer"
           },
           {
-            "description": "\"days to death or LFU (loss to follow-up). LFU refers to patients who at one point in time were actively participating in a clinical research trial, but have become lost (either by error in a computer tracking system or by being unreachable) at the point of follow-up in the trial.\"",
+            "description": "days to death or LFU (loss to follow-up). LFU refers to patients who at one point in time were actively participating in a clinical research trial, but have become lost (either by error in a computer tracking system or by being unreachable) at the point of follow-up in the trial.",
             "name": "days_to_death_or_LFU",
             "type": "integer"
           },
@@ -278,6 +287,7 @@
                 "I",
                 "IA",
                 "IB",
+                "IC",
                 "IS",
                 "II",
                 "IIA",
@@ -341,7 +351,8 @@
             "name": "group",
             "type": "string"
           }
-        ]
+        ],
+        "primaryKey": "id"
       }
     }
   ],
