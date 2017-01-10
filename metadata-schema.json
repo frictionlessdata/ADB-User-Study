@@ -1,0 +1,350 @@
+{
+  "dialect": {
+    "delimiter": "\t"
+  },
+  "fields": [
+    {
+      "constraints": {
+        "unique": true
+      },
+      "description": "ID",
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "description": "This is negative if the patient had received treatment after the date of progression/recurrence or if the date of last platinum treatment is after the date of last follow-up.",
+      "name": "PlatinumFreeInterval",
+      "type": "number"
+    },
+    {
+      "constraints": {
+        "enum": [
+          "Resistant",
+          "Sensitive",
+          "Tooearly"
+        ]
+      },
+      "description": "It describes whether the patient was resistant to platinum (chemotherapy) treatment",
+      "missingValue": "Missing",
+      "name": "PlatinumStatus",
+      "type": "string"
+    },
+    {
+      "description": "additional chemo therapy",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "additional_chemo_therapy",
+      "type": "boolean"
+    },
+    {
+      "description": "additional drug therapy",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "additional_drug_therapy",
+      "type": "boolean"
+    },
+    {
+      "description": "additional immuno therapy",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "additional_immuno_therapy",
+      "type": "boolean"
+    },
+    {
+      "description": "additional pharmaceutical therapy",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "additional_pharmaceutical_therapy",
+      "type": "boolean"
+    },
+    {
+      "description": "additional radiation therapy",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "additional_radiation_therapy",
+      "type": "boolean"
+    },
+    {
+      "constraints": {
+        "minimum": 0
+      },
+      "description": "age at initial pathologic diagnosis",
+      "name": "age_at_initial_pathologic_diagnosis",
+      "type": "integer"
+    },
+    {
+      "description": "chemo therapy",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "chemo_therapy",
+      "type": "boolean"
+    },
+    {
+      "description": "it indicates the primary treatment a success (the patient survived)",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "days_to_death",
+      "type": "integer"
+    },
+    {
+      "description": "days to initial pathologic diagnosis",
+      "name": "days_to_initial_pathologic_diagnosis",
+      "type": "integer"
+    },
+    {
+      "description": "days to last followup",
+      "name": "days_to_last_followup",
+      "type": "integer"
+    },
+    {
+      "description": "days to death or LFU (loss to follow-up). LFU refers to patients who at one point in time were actively participating in a clinical research trial, but have become lost (either by error in a computer tracking system or by being unreachable) at the point of follow-up in the trial.",
+      "name": "days_to_death_or_LFU",
+      "type": "integer"
+    },
+    {
+      "description": "days to tumor progression",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "days_to_tumor_progression",
+      "type": "integer"
+    },
+    {
+      "description": "days to tumor recurrence",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "days_to_tumor_recurrence",
+      "type": "integer"
+    },
+    {
+      "description": "days to tumor progression or recurrence",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "daystotumorprogorrecur",
+      "type": "integer"
+    },
+    {
+      "description": "progression or recurrence",
+      "missingValue": "Unknown",
+      "name": "ProgorRecur",
+      "type": "boolean"
+    },
+    {
+      "description": "ethnicity",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "ethnicity",
+      "type": "string"
+    },
+    {
+      "description": "immuno therapy",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "immuno_therapy",
+      "type": "boolean"
+    },
+    {
+      "description": "pretreatment history",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "pretreatment_history",
+      "type": "boolean"
+    },
+    {
+      "constraints": {
+        "enum": [
+          "COMPLETE RESPONSE",
+          "PARTIAL RESPONSE",
+          "PROGRESSIVE DISEASE",
+          "STABLE DISEASE"
+        ]
+      },
+      "description": "it means the primary treatment a success (the patient survived)",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "primary_therapy_outcome_success",
+      "type": "string"
+    },
+    {
+      "constraints": {
+        "enum": [
+          "AMERICAN INDIAN OR ALASKA NATIVE",
+          "ASIAN",
+          "BLACK OR AFRICAN AMERICAN",
+          "WHITE"
+        ]
+      },
+      "description": "race",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "race",
+      "type": "string"
+    },
+    {
+      "description": "radiation therapy",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "radiation_therapy",
+      "type": "boolean"
+    },
+    {
+      "description": "residual tumor",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "residual_tumor",
+      "type": "string"
+    },
+    {
+      "description": "site of tumor first recurrence",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "site_of_tumor_first_recurrence",
+      "type": "string"
+    },
+    {
+      "description": "targeted molecular therapy",
+      "missingValue": [
+        "[Not Applicable]",
+        "[Not Available]",
+        "[Pending]"
+      ],
+      "name": "targeted_molecular_therapy",
+      "type": "boolean"
+    },
+    {
+      "description": "tissue source site",
+      "name": "tissue_source_site",
+      "type": "integer"
+    },
+    {
+      "description": "tumor residual disease",
+      "name": "tumor_residual_disease",
+      "type": "string"
+    },
+    {
+      "constraints": {
+        "enum": [
+          "0",
+          "I",
+          "IA",
+          "IB",
+          "IC",
+          "IS",
+          "II",
+          "IIA",
+          "IIB",
+          "IIC",
+          "III",
+          "IIIA",
+          "IIIB",
+          "IIIC",
+          "IV"
+        ]
+      },
+      "description": "tumor stage",
+      "name": "tumor_stage",
+      "type": "string"
+    },
+    {
+      "constraints": {
+        "enum": [
+          "LIVING",
+          "DECEASED"
+        ]
+      },
+      "description": "vital status",
+      "name": "vital_status",
+      "type": "string"
+    },
+    {
+      "description": "year of initial pathologic diagnosis",
+      "name": "year_of_initial_pathologic_diagnosis",
+      "type": "integer"
+    },
+    {
+      "constraints": {
+        "enum": [
+          "Germline Blood",
+          "Solid Tissue Normal (DNA)"
+        ]
+      },
+      "description": "Normal Control",
+      "name": "Normal_Control",
+      "type": "string"
+    },
+    {
+      "description": "Tissue source site",
+      "name": "TSS",
+      "type": "string"
+    },
+    {
+      "description": "Tumor Type",
+      "name": "Tumor Type",
+      "type": "string"
+    },
+    {
+      "description": "BCR Status",
+      "name": "BCR_Status",
+      "type": "string"
+    },
+    {
+      "description": "group",
+      "name": "group",
+      "type": "string"
+    }
+  ],
+  "primaryKey": "id"
+}
