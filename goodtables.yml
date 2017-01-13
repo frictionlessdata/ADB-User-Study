@@ -1,4 +1,3 @@
 files:
-  -
-    path: 'metadata.tsv'
+  - path: 'metadata.tsv'
     schema: 'metadata-schema.json'
