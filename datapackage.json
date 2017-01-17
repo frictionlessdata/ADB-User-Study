@@ -31,7 +31,7 @@
               ]
             },
             "description": "It describes whether the patient was resistant to platinum (chemotherapy) treatment",
-            "missingValues": "Missing",
+            "missingValues": ["Missing"],
             "name": "PlatinumStatus",
             "type": "string"
           },
@@ -160,7 +160,7 @@
           },
           {
             "description": "progression or recurrence",
-            "missingValues": "Unknown",
+            "missingValues": ["Unknown"],
             "name": "ProgorRecur",
             "type": "boolean"
           },
