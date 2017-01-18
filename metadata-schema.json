@@ -25,13 +25,13 @@
         ]
       },
       "description": "It describes whether the patient was resistant to platinum (chemotherapy) treatment",
-      "missingValue": "Missing",
+      "missingValues": ["Missing"],
       "name": "PlatinumStatus",
       "type": "string"
     },
     {
       "description": "additional chemo therapy",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -41,7 +41,7 @@
     },
     {
       "description": "additional drug therapy",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -51,7 +51,7 @@
     },
     {
       "description": "additional immuno therapy",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -61,7 +61,7 @@
     },
     {
       "description": "additional pharmaceutical therapy",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -71,7 +71,7 @@
     },
     {
       "description": "additional radiation therapy",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -89,7 +89,7 @@
     },
     {
       "description": "chemo therapy",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -99,7 +99,7 @@
     },
     {
       "description": "it indicates the primary treatment a success (the patient survived)",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -124,7 +124,7 @@
     },
     {
       "description": "days to tumor progression",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -134,7 +134,7 @@
     },
     {
       "description": "days to tumor recurrence",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -144,7 +144,7 @@
     },
     {
       "description": "days to tumor progression or recurrence",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -154,13 +154,13 @@
     },
     {
       "description": "progression or recurrence",
-      "missingValue": "Unknown",
+      "missingValues": ["Unknown"],
       "name": "ProgorRecur",
       "type": "boolean"
     },
     {
       "description": "ethnicity",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -170,7 +170,7 @@
     },
     {
       "description": "immuno therapy",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -180,7 +180,7 @@
     },
     {
       "description": "pretreatment history",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -198,7 +198,7 @@
         ]
       },
       "description": "it means the primary treatment a success (the patient survived)",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -216,7 +216,7 @@
         ]
       },
       "description": "race",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -226,7 +226,7 @@
     },
     {
       "description": "radiation therapy",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -236,7 +236,7 @@
     },
     {
       "description": "residual tumor",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -246,7 +246,7 @@
     },
     {
       "description": "site of tumor first recurrence",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
@@ -256,7 +256,7 @@
     },
     {
       "description": "targeted molecular therapy",
-      "missingValue": [
+      "missingValues": [
         "[Not Applicable]",
         "[Not Available]",
         "[Pending]"
