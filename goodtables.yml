@@ -1,3 +1,4 @@
 files:
-  - source: 'metadata.tsv'
-    schema: 'metadata-schema.json'
+  - source: metadata.tsv
+    schema: metadata-schema.json
+    skip_rows: ['#']
