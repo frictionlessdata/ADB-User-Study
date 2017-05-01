@@ -4,7 +4,7 @@
 # ADBio User Study
 <!--adbio-version-->
 [![Visit at https://adbio.pnnl.gov](https://adbio.pnnl.gov/bioviz/services/svg/version?ver=0.02)](https://adbio.pnnl.gov/bioviz/releasenotes.html#0.02)
-[![Goodtables](http://goodtables.io/badge/github/frictionlessdata/ADB-User-Study.svg)](http://goodtables.io/github/frictionlessdata/ADB-User-Study)
+[![Goodtables](https://goodtables.io/badge/github/frictionlessdata/ADB-User-Study.svg)](https://goodtables.io/github/frictionlessdata/ADB-User-Study)
 <!--adbio-title-->
 
 <!--adbio-description-->
