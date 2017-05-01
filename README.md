@@ -2,7 +2,7 @@
 <!--NOTES: all the comments are auto-generated. please refer to the tutorial for readme editing at https://adbio.pnnl.gov/tutorial.xxxx-->
 <!--adbio-version-->
 [![Visit at https://adbio.pnnl.gov](https://adbio.pnnl.gov/bioviz/services/svg/version?ver=0.02)](https://adbio.pnnl.gov/bioviz/releasenotes.html#0.02)
-[![Goodtables](http://staging.goodtables.io/badge/github/frictionlessdata/ADB-User-Study.svg)](http://staging.goodtables.io/github/repo/frictionlessdata/ADB-User-Study)
+[![Goodtables](http://goodtables.io/badge/github/frictionlessdata/ADB-User-Study.svg)](http://goodtables.io/github/repo/frictionlessdata/ADB-User-Study)
 <!--adbio-title-->
 ADBio User Study
 <!--adbio-description-->
